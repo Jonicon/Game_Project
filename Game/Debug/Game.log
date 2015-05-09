@@ -1,0 +1,27 @@
+﻿Build started 17-7-14 16:42:32 .
+     1>Project "E:\DOCS\GitHub\Game\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Ohjelmat\Ohjelmointi\Visual Studio 2012\VC\bin\CL.exe /c /I"E:\Ohjelmat\Ohjelmointi\SDL2.0\SDL2-2.0.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp GraphicsComponent.cpp InputComponent.cpp Main.cpp PhysicsComponent.cpp Entity.cpp World.cpp
+         World.cpp
+         Entity.cpp
+         PhysicsComponent.cpp
+         Main.cpp
+         InputComponent.cpp
+         GraphicsComponent.cpp
+         Game.cpp
+         Generating Code...
+     1>e:\docs\github\game\game\main.cpp(16): warning C4715: 'SDL_main' : not all control paths return a value
+       Lib:
+         E:\Ohjelmat\Ohjelmointi\Visual Studio 2012\VC\bin\Lib.exe /OUT:"E:\DOCS\GitHub\Game\Game\Debug\Game.lib" SDL2main.lib SDL2.lib /LIBPATH:"E:\Ohjelmat\Ohjelmointi\SDL2.0\SDL2-2.0.1\lib\x86" /NOLOGO Debug\Game.obj
+         Debug\GraphicsComponent.obj
+         Debug\InputComponent.obj
+         Debug\Main.obj
+         Debug\PhysicsComponent.obj
+         Debug\Entity.obj
+         Debug\World.obj
+         Game.vcxproj -> E:\DOCS\GitHub\Game\Game\Debug\Game.lib
+     1>Done Building Project "E:\DOCS\GitHub\Game\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.32
